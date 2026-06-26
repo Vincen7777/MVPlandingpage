@@ -79,6 +79,17 @@ export default function SignUpPage() {
                          focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
             />
           </div>
+          <div className="flex items-center justify-between mb-6">
+            <label className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+              <input type="checkbox" className="rounded border-gray-300" />
+              <span>
+                Saya setuju dengan{" "}
+                <Link href="/privasi" className="text-blue-500 hover:underline">
+                  Kebijakan Privasi
+                </Link>
+              </span>
+            </label>
+          </div>
 
           <p className="text-sm text-gray-500 mb-8">
             Already have an account?{" "}
